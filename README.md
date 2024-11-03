@@ -51,7 +51,7 @@ ASL
 [commands]
 
 ### Project Documentation
-For Software:
+The project first started off as an automation system to automate switches using the home wifi, but then our NODEMCU burnt out along with having our battery explode, so it was very soon repurposed to a distomat/radar/proximity sensor device
 
 # Screenshots (Add at least 3)
 https://drive.google.com/file/d/1lDzN5VwvvQV0AslvxdlxtlrRx1hIOkPP/view?usp=drivesdk
