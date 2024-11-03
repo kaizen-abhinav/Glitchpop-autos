@@ -8,7 +8,6 @@ const int echoPin = 10;
 const int servoPin = 11;
 const int switchPin = 2;
 
-// Updated threshold distance in cm
 const int thresholdDistance = 15;
 
 void setup() {
