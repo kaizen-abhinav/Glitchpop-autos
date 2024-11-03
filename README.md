@@ -1,44 +1,51 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Uselessness-by-Glitchpop] 🎯
+# Uselessness-by-Glitchpop 🎯
 
 
 ## Basic Details
-### Team Name: [Glitchpop]
+### Team Name: Glitchpop
 
 
 ### Team Members
 - Team Lead: [Abhinav Varghese Abraham] - [STGITS]
-- Member 2: [Albin Chacko] - [STGITS]
-- Member 3: [Akash Jis] - [STGITS]
+- Member 2: Albin Chacko - STGITS
+- Member 3: Akash Jis - STGITS
 
 ### Project Description
-[Its basically a system that can auto detect when a water tank is full to a certain level and turn off the motor. it can also be repurposed into a radar or distance meter. Among others we have also developed code for a useless site that displays useless memes from reddit and songs from soundcloud. Overall id say its pretty fun but useless. The hosting is still a work in progress]
+Its basically a system that can auto detect when a water tank is full to a certain level and turn off the motor. it can also be repurposed into a radar or distance meter. Among others we have also developed code for a useless site that displays useless memes from reddit and songs from soundcloud. Overall id say its pretty fun but useless. The hosting is still a work in progress
 
 ### The Problem (that doesn't exist)
-[Getting up to turn off a switch]
+Getting up to turn off a switch
 
 ### The Solution (that nobody asked for)
-[Using a motor to turn on the switch]
+Using a motor to turn on the switch
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Visual Studio Code]
-- [Arduino IDE]
-- [Node.js]
-- [Flutter]
-- [ChatGPT]
+- Visual Studio Code
+- Arduino IDE
+- [Node.js
+- Flutter
+- ChatGPT
 For Hardware:
-- [Arduino UNO]
-- [HCSR0 Ultrasonic sensor]
-- [9V Battery]
--[Servo motor]
--[Jumper Cables]
+- Arduino UNO
+- HCSR0 Ultrasonic sensor
+- 9V Battery
+-Servo motor
+-Jumper Cables
 ### Implementation
 For Software: "still in progress"
 # Installation
-[commands]
+python idle
+git
+visual studio code
+termux
+hyper
+node.js
+chocolatey
+ASL
 
 # Run
 [commands]
