@@ -24,7 +24,7 @@ void setup() {
 void loop() {
   long duration, distance;
 
-  // Trigger the ultrasonic sensor
+
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
