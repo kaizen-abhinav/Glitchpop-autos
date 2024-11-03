@@ -13,10 +13,10 @@
 - Member 3: Akash Jis - STGITS
 
 ### Project Description
-Its basically a system that can auto detect when a water tank is full to a certain level and turn off the motor. it can also be repurposed into a radar or distance meter. Among others we have also developed code for a useless site that displays useless memes from reddit and songs from soundcloud. Overall id say its pretty fun but useless. The hosting is still a work in progress
+A distomat that measures distance between the instrument and an object using echo location 
 
 ### The Problem (that doesn't exist)
-Getting up to turn off a switch
+using rulers
 
 ### The Solution (that nobody asked for)
 Using a motor to turn on the switch
@@ -54,10 +54,9 @@ ASL
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](![image](https://github.com/user-attachments/assets/45641a5f-fe82-437b-82c5-79![image](https://github.com/user-attachments/assets/ee9dd893-6c1b-48f2-978b-564352853459)
-f73b13fd19)
+https://drive.google.com/file/d/1lDzN5VwvvQV0AslvxdlxtlrRx1hIOkPP/view?usp=drivesdk
 )
-*Add caption explaining what this shows*
+code to using the distomat
 
 ![Screenshot2](![image](https://github.com/user-attachments/assets/750c806e-95b2-4d64-9192-a285b3dfaa8a)
 )
