@@ -1,50 +1,36 @@
-#include <Servo.h>
-
-Servo myServo;
-
-// Define pin connections
-const int trigPin = 9;
-const int echoPin = 10;
-const int servoPin = 11;
-const int switchPin = 2;
-
-// Updated threshold distance in cm
-const int thresholdDistance = 10;
+// Define pins
+const int trigPin = 9; // Trigger pin
+const int echoPin = 10; // Echo pin
 
 void setup() {
-  myServo.attach(servoPin);
-  pinMode(trigPin, OUTPUT);
-  pinMode(echoPin, INPUT);
-  pinMode(switchPin, INPUT_PULLUP);
-
-  myServo.write(0); // Initialize servo to 0 degrees
-  Serial.begin(9600);
+  Serial.begin(9600); // Start the Serial communication
+  pinMode(trigPin, OUTPUT); // Set trigger pin as output
+  pinMode(echoPin, INPUT); // Set echo pin as input
 }
 
 void loop() {
   long duration, distance;
 
-
+  // Clear the trigger
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
+
+  // Set the trigger pin HIGH for 10 microseconds
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
 
-  // Read the echo
+  // Read the echo pin, which returns the time it took for the signal to return
   duration = pulseIn(echoPin, HIGH);
-  distance = (duration / 2) * 0.0343; // Calculate distance in cm
 
+  // Calculate distance in cm (speed of sound is 34300 cm/s)
+  distance = (duration / 2) * 0.0343;
+
+  // Print distance to Serial Monitor
   Serial.print("Distance: ");
-  Serial.println(distance);
+  Serial.print(distance);
+  Serial.println(" cm");
 
-  // Check if an object is detected within the updated threshold distance
-  if (distance < thresholdDistance) {
-    // Rotate servo to toggle switch
-    myServo.write(90); // Rotate to 90 degrees (or the angle to press the switch)
-    delay(1000); // Wait for 1 second
-    myServo.write(0); // Return to 0 degrees
-  }
-
-  delay(500); // Delay for a short period before the next reading
-}
+  // Delay before next measurement
+  delay(500);
+} 
